@@ -14,12 +14,12 @@
 <div class="wrapper">
   <input type="checkbox">
   <div class="video">
-    <video src="보스.mp4" loop autoplay muted="muted">
+    <video id = "vid" src="보스.mp4" loop autoplay muted="muted">
     </video>
+    
+    <script> document.getElementById('vid').play(); </script>
+
     <input type="checkbox">
-    <script> document.getElementById('video').play(); </script>
-
-
     <script type="html" src="./Menu/menu.html"></script>
 
   </div>
